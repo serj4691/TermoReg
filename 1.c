@@ -2,13 +2,13 @@
 This program was produced by the
 CodeWizardAVR V2.05.3 Standard
 Automatic Program Generator
-© Copyright 1998-2011 Pavel Haiduc, HP InfoTech s.r.l.
+В© Copyright 1998-2011 Pavel Haiduc, HP InfoTech s.r.l.
 http://www.hpinfotech.com
 
 Project : 
 Version : 
-Date    : 09.06.2014
-Author  : PerTic@n
+Date    : 09.06.2015
+Author  : Serj
 Company : If You Like This Software,Buy It
 Comments: 
 
@@ -29,7 +29,7 @@ Data Stack size         : 256
 // Declare your global variables here
 #define LED_delay 150    
 
-int byDisplay[4];        // буфер данных, для вывода на экран
+int byDisplay[4];        // ГЎГіГґГҐГ° Г¤Г Г­Г­Г»Гµ, Г¤Г«Гї ГўГ»ГўГ®Г¤Г  Г­Г  ГЅГЄГ°Г Г­
 int temperatura,ii=0;
 int temp=0,temp1=0,temp2=0,tempi=0;
 int byCharacter[13] = {0x3F,     //0
